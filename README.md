@@ -47,10 +47,10 @@ To generate images, simply run load_stuff() and then gen_images(1000). Replace t
 
 Other functions that may be of use are:
 
-*get_intrinsic_matrix():* Returns the four intrinsic camera parameters (fx, fy, cx and cy) of the active camera. Note that Blender does not apply distortion coefficients to its cameras.
+**get_intrinsic_matrix():** Returns the four intrinsic camera parameters (fx, fy, cx and cy) of the active camera. Note that Blender does not apply distortion coefficients to its cameras.
 
-*select_visible():* Selects all vertices visible to the camera. This may be useful if you wish not to label occluded joints.
+**select_visible():** Selects all vertices visible to the camera. This may be useful if you wish not to label occluded joints.
 
-*random_pose():* This is the function that is called in gen_images to move the Cheetah model (and light source) to a random location and pose. You may want to run this function a few times before generating images to ensure that the camera is well placed, and that most poses are visible to the camera.
+**random_pose():** This is the function that is called in gen_images to move the Cheetah model (and light source) to a random location and pose. You may want to run this function a few times before generating images to ensure that the camera is well placed, and that most poses are visible to the camera.
 
-*get_vertex(group_index):* Returns the 3D location of the last vertex in a vertex group. You can assign a single vertex to a group and use this function to get its location.
+**get_vertex(group_index):** Returns the 3D location of the last vertex in a vertex group. You can assign a single vertex to a group and use this function to get its location.
