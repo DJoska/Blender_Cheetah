@@ -29,7 +29,7 @@ The script works by rendering a 3D model of a Cheetah, along with a random amoun
 
 There are some possible crashes associated with Blender's OpenAL sound system. If you are experiencing these crashes, or just want to be safe, go to Edit -> Preferences -> System and change Audio Device to Null. While you're here, ensure that Cycles Render Devices is set up as desired.
 
-Note that there is a bug in Blender 2.81 that renders images with a smaller height (in pixels) than is specified. This difference is accounted for in the program, but you may want to check the generated images to ensure that they are the correct resolution.
+Note that there is a bug in Blender 2.81 that renders images with a smaller width (in pixels) than is specified. This difference is accounted for in the program, but you may want to check the generated images to ensure that they are the correct resolution.
 
 ## 3    Usage
 
